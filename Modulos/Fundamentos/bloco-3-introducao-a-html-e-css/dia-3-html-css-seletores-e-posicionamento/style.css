@@ -1,42 +1,14 @@
-.super-mario {
-  width: 150px;
-  position: absolute;
-
+h1, p {
+  text-align: center;
 }
-
-.goomba {
-  width: 100px;
-  top: 300px;
-  left: 70px;
-  position: absolute;
-  z-index: 1;
+li {
+  list-style:none; /* Muda os marcadores de linhas em uma lista(o comando "none" remove)*/
+}
+li:active {
+  color: rgb(61, 9, 250);
   
 }
-
-.baloon {
-  position: absolute;
-  z-index: 2;
-  width: 200px;
-  left: 210px;
-
-
-}
-
-.speach {
-  font-size: 18px;
-  position: absolute;
-  z-index: 3;
-  left: 220px;
-  top: 100px;
-}
-
-.bowser {
-  width: 200px;
-  position: absolute;
-  top: 200px;
-  left: 400px;
-  z-index: 4;
-  
-
-
+li:hover {
+  background-color: rgb(214, 214, 247);
+  border: 40px;
 }
