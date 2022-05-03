@@ -1,0 +1,3 @@
+addEventListener "adiciona um escutador de evento"
+
+event.target = "recupera tudo sobre o elemento alvo" ao clicar recupera os elementos daquele botao.
