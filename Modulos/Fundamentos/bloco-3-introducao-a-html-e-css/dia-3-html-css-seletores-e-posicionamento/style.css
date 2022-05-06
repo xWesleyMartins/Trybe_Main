@@ -1,0 +1,22 @@
+div:hover{
+  
+  border-style:solid;
+  border-bottom-width: 4px;
+  border-top-width: 4px;
+  border-right-width: 3px;
+  border-left-width: 3px;
+
+  border-style: dashed;
+  border-color: #F00;
+  margin:3px;
+
+}
+
+div:active {
+  color: rgb(61, 9, 250);
+  
+}
+li:hover {
+  background-color: rgb(214, 214, 247);
+  
+}
